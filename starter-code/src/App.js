@@ -5,12 +5,12 @@ import Navbar from "./Navbar";
 import FormField from "./Formfield";
 
 class App extends Component {
-    render() {
-      return (
-        <div>
-          <Navbar />
-          <FormField />
-        </div>        
+  render() {
+    return (
+    <div>
+      <Navbar />
+      <FormField />
+    </div>
     );
   }
 }
