@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import 'bulma/css/bulma.css';
-import CoolButton from "./CoolButton";
+
 
 
 
@@ -57,13 +57,21 @@ class Navbar extends Component {
                 </div>
             </div>
 
-            <div className="navbar-end">
-                <div className="navbar-item">
-                    <div className="buttons">
-                        <CoolButton />
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                    <a class="button is-primary">
+                        <strong>Sign up</strong>
+                    </a>
+                    <a class="button is-light">
+                        Log in
+                    </a>
                     </div>
                 </div>
             </div>
+
+
         </nav>
     );
   }
