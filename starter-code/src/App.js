@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar.js";
 import FormField from "./FormField.js";
+import CoolButton from "./CoolButton.js";
 import "./App.css";
 
 class App extends React.Component {
@@ -16,6 +17,12 @@ class App extends React.Component {
             placeholder="e.g. alexsmith@gmail.com"
           />
         </div>
+        <CoolButton isSmall isDanger className="is-rounded my-class">
+          Button 1
+        </CoolButton>
+        <CoolButton isSmall isSuccess>
+          Button 2
+        </CoolButton>
       </div>
     );
   }
