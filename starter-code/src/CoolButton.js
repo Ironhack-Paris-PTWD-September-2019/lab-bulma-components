@@ -3,9 +3,21 @@ import 'bulma/css/bulma.css';
 
 class  CoolButton extends Component {
     render() {
+
+      console.log(Object.keys(this.props));
+      let tabClass = Object.keys(this.props);
+      let listClass = "";
+      
+      tabClass.map(function(element) {
+        listClass += (element + " ");
+      });       
+
+      console.log(listClass); 
+
       return (
-        <div>
-          <button className={this.props}>Button</button>
+
+        <div className="CoolButton">
+          <button className={listClass}>{this.props.children}</button>
         </div>
     );
     }
