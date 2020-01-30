@@ -1,0 +1,16 @@
+.navbar {
+    background:grey;
+}
+
+.App {
+    width:600px;
+    margin:50px;
+}
+
+.part {
+    margin:50px;
+}
+
+h1 {
+    background:pink;
+}
