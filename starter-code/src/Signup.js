@@ -13,10 +13,10 @@ class Signup extends Component {
           <FormField label="Name" type="text" placeholder="e.g Alex Smith"/>
           <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com"/>
           <FormField label="Password" type="password" placeholder="password"/>
-          <CoolButton class1="is-small" class2="is-success">Submit</CoolButton>
+          <CoolButton isSmall isSuccess>Submit</CoolButton>
         </form>
         </div>
-    );
+      );
     }
   }
   

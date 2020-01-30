@@ -10,14 +10,28 @@ class  CoolButton extends Component {
       
       // tabClass.map(function(element) {
       //   listClass += (element + " ");
-      // });       
+      // });   
 
-  
+      let classes = "button";
+
+      if ("isDanger" in this.props) {
+        classes += " is-danger"
+      }    
+
+      if ("isSmall" in this.props) {
+        classes += " is-small"
+      }
+
+      if ("isSuccess" in this.props) {
+        classes += " is-success"
+      }
+
+      console.log(classes);
 
       return (
 
         <div className="CoolButton">
-          <button className={`button ${this.props.class1} ${this.props.class2} ${this.props.className} `}>{this.props.children}</button>
+          <button className={classes}>{this.props.children}</button>
         </div>
 
         
