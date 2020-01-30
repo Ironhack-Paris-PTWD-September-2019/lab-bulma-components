@@ -35,7 +35,7 @@ class Navbar extends React.Component {
             <div className="navbar-item">
               <div className="field is-grouped">
                 <p className="control">
-                  <CoolButton isSmall isSuccess>
+                  <CoolButton isSmall isInfo>
                     {" "}
                     Log In
                   </CoolButton>

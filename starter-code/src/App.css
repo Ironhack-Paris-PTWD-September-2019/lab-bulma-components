@@ -1,6 +1,9 @@
 .bd-tw-button.button {
-  background-color: #49a6ed;
   color: white;
+}
+
+div.container {
+  width: 30%;
 }
 
 .form {

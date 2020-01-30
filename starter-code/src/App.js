@@ -2,29 +2,19 @@ import React from "react";
 import Navbar from "./Navbar.js";
 import FormField from "./FormField.js";
 import CoolButton from "./CoolButton.js";
+import Signup from "./Signup.js";
+import Message from "./Message.js";
 import "./App.css";
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Navbar />
-        <form className="form">
-          <FormField
-            label="Name"
-            type="text"
-            placeholder="e.g Elisa Salamanca"
-          />
-          <FormField
-            label="Email"
-            type="email"
-            placeholder="e.g. elisa@ironhack.com"
-          />
-          <FormField label="Password" type="password" placeholder="*********" />
-          <CoolButton isSmall isSucess className="is-rounded my-class">
-            Submit
-          </CoolButton>
-        </form>
+        <Signup />
+        <Message isInfo title="Hello World">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+          <strong>Pellentesque risus mi</strong>.
+        </Message>
       </div>
     );
   }
