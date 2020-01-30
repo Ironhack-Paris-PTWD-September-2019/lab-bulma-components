@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import CoolButton from "./CoolButton.js"
 
 class Nav extends Component {
     render() {
       return (
-        <nav className="navbar is-fixed">
+        <nav className="navbar is-fixed" style={{margin: '30px 10px'}}>
         <div id="navbarExampleTransparentExample" className="navbar-menu">
           <div className="navbar-start">
           <a className="navbar-item" href="https://bulma.io">
@@ -17,26 +18,12 @@ class Nav extends Component {
       
           <div className="navbar-end">
             <div className="navbar-item">
-              <div className="field is-grouped">
-                <p className="control">
-                  <a className="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://bulma.io" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms">
-                    <span className="icon">
-                      <i className="fab fa-twitter"></i>
+                    <span>
+                    <CoolButton classname="button is-small is-danger is-rounded my-class" text="Login"/>
                     </span>
                     <span>
-                      Login
+                    <CoolButton classname="button is-small is-success" text="Signup"/>
                     </span>
-                  </a>
-                </p>
-                <p className="control">
-                  <a className="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.8.0/bulma-0.8.0.zip">
-                    <span className="icon">
-                      <i className="fas fa-download"></i>
-                    </span>
-                    <span>Signup</span>
-                  </a>
-                </p>
-              </div>
             </div>
           </div>
         </div>
