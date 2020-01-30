@@ -1,4 +1,5 @@
 import React from "react";
+import CoolButton from "./CoolButton.js";
 
 class Navbar extends React.Component {
   render() {
@@ -34,14 +35,16 @@ class Navbar extends React.Component {
             <div className="navbar-item">
               <div className="field is-grouped">
                 <p className="control">
-                  <a className="bd-tw-button button" href="">
-                    <span>Login</span>
-                  </a>
+                  <CoolButton isSmall isSuccess>
+                    {" "}
+                    Log In
+                  </CoolButton>
                 </p>
                 <p className="control">
-                  <a className="button is-primary" href="">
-                    <span>Signup</span>
-                  </a>
+                  <CoolButton isSmall isSuccess>
+                    {" "}
+                    SignUp
+                  </CoolButton>
                 </p>
               </div>
             </div>

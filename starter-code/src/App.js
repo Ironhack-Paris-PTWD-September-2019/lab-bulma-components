@@ -9,20 +9,22 @@ class App extends React.Component {
     return (
       <div className="App">
         <Navbar />
-        <div className="form">
-          <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
+        <form className="form">
+          <FormField
+            label="Name"
+            type="text"
+            placeholder="e.g Elisa Salamanca"
+          />
           <FormField
             label="Email"
             type="email"
-            placeholder="e.g. alexsmith@gmail.com"
+            placeholder="e.g. elisa@ironhack.com"
           />
-        </div>
-        <CoolButton isSmall isDanger className="is-rounded my-class">
-          Button 1
-        </CoolButton>
-        <CoolButton isSmall isSuccess>
-          Button 2
-        </CoolButton>
+          <FormField label="Password" type="password" placeholder="*********" />
+          <CoolButton isSmall isSucess className="is-rounded my-class">
+            Submit
+          </CoolButton>
+        </form>
       </div>
     );
   }
