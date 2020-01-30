@@ -8,12 +8,12 @@ class Signup extends Component {
     render() {
       return (
         <div>
-        <form action="/Signup.js" method="post">
+        <form action="/Signup" method="post">
           <Navbar />
-          <FormField />
-          <FormField />
-          <FormField />
-          <CoolButton />
+          <FormField label="Name" type="text" placeholder="e.g Alex Smith"/>
+          <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com"/>
+          <FormField label="Password" type="password" placeholder="password"/>
+          <CoolButton class1="is-small" class2="is-success">Submit</CoolButton>
         </form>
         </div>
     );
