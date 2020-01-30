@@ -52,7 +52,8 @@ class Navbar extends Component {
             <div className="navbar-end">
                 <div className="navbar-item">
                     <div className="buttons">
-                   <CoolButton name1="Sign Up" name2="Login" />
+                    <CoolButton name1="SignUp" class1="is-rounded" class2="my-class" class3="is-danger" class4="is-small"/>
+                    <CoolButton name1="Login" class1="is-small" class2="is-success"/>
                     </div>
                 </div>
             </div>

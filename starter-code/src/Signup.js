@@ -13,7 +13,9 @@ class Signup extends Component {
       <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
       <FormField label="Password" type="password"  />
       
-      <CoolButton name1="Submit"/>
+      <CoolButton name1="Submit" class1="is-rounded" class2="my-class" class3="is-danger" class4="is-small"/>
+     
+
     
     </div>
 
