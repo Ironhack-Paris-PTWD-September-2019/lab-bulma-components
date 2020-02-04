@@ -1,0 +1,9 @@
+.Container {
+  height:100vh;
+  display:flex;
+}
+
+.Container .message {
+  max-width:50%;
+  margin:auto;
+}
