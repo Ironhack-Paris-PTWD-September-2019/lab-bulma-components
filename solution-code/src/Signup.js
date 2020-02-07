@@ -7,7 +7,7 @@ import CoolButton from './CoolButton.js'
 class Signup extends React.Component {
   render() {
     return (
-      <div class="Signup">
+      <div className="Signup">
         <form>
         <Navbar />
 
