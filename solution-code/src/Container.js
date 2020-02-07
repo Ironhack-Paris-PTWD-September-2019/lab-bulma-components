@@ -3,7 +3,7 @@ import React from 'react'
 class Container extends React.Component {
   render() {
     return (
-      <div class="Container">
+      <div className="Container">
         {this.props.children}
       </div>
     )
