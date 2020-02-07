@@ -9,12 +9,12 @@ class Message extends React.Component {
     }
 
     return (
-      <article class={classes}>
-        <div class="message-header">
+      <article className={classes}>
+        <div className="message-header">
           <p>{this.props.title}</p>
-          <button class="delete" aria-label="delete"></button>
+          <button className="delete" aria-label="delete"></button>
         </div>
-        <div class="message-body">
+        <div className="message-body">
           {this.props.children}
         </div>
       </article>
