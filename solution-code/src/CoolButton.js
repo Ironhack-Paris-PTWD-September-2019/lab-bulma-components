@@ -50,7 +50,7 @@ class CoolButton extends React.Component {
       }
     })
 
-    return <button class={classes}>{this.props.children}</button>;
+    return <button className={classes}>{this.props.children}</button>;
   }
 }
 
